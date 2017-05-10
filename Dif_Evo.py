@@ -162,7 +162,7 @@ def run(data):
 if __name__ == "__main__":
     fig, ax = plt.subplots()  
     line, = ax.plot([], [], lw=2)  
-    ax.set_ylim(-20,20)  
+    ax.set_ylim(-20,10)  
     ax.set_xlim(0, 5)  
     ax.grid()  
     xdata, ydata = [], []
